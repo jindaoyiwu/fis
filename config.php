@@ -23,7 +23,7 @@ $black_list = [
 ];
 $first_upload = false; //第一是否上传
 $project = '/Users/chengyuanzhao/Desktop/work';
-//$url = 'http://yapi.qa2.haohaoce.com/receives.php';
-$url = 'http://yapi.gray1.haohaozhu.me/receives.php';
+//$url = 'http://yapi.xx.com/receives.php';
+$url = 'http://yxx.com/receives.php';
 $to =  '/data/wwwroot';
 return compact('black_list', 'project', 'url', 'to', 'first_upload');
